@@ -66,28 +66,11 @@ The Bus ticket application is composed of the following Features:
 * This version does not support dynamic seat data being stored from cloud.
 
 
-This project also demonstrates:
-
-* a typcial React project layout structure
-
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
-
-The following software is required to be installed on your system:
-
-* Node 8.x
-* Npm 3.x
-
-Type the following commands in the terminal to verify your node and npm versions
-
-```bash
-node -v
-npm -v
-```
 
 ### Install
 
