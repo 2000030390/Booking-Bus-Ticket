@@ -2,7 +2,7 @@
 
 A Bus ticket booking application made using MERN Stack (MongoDB, Express js, React js, Node js)
 
-The ticket Booking system is a web-based application that allows users to book Tickets for a bus. It provides a platform where users can easily book a ticket for the bus. The system aims to streamline the process of ticket booking by providing a convenient and efficient  booking system.
+The ticket Booking system is a web-based application that allows users to book Tickets for a bus. It provides a platform where users can easily book a ticket for the bus. The system aims to streamline the process of ticket booking.
 
 
 <p align = "center">
@@ -15,6 +15,7 @@ The ticket Booking system is a web-based application that allows users to book T
 </p>
 
 [Here](http://booktic.pinterest.com/) is the link of Bus-Booking-Site.
+
 [Here](https://businessbus.pinterest.com/) is the link of Business portal of this site for adding buses.
 
 The Bus ticket application is composed of the following Features:
@@ -57,7 +58,7 @@ This project also demonstrates:
 * a typcial React project layout structure
 
 
-## Developed With
+## Deployment
 
 * [Visual Studio Code](https://code.visualstudio.com/) - A source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring
 * [Node.js](https://nodejs.org/en/) - Javascript runtime
@@ -103,23 +104,27 @@ Follow the following steps to get development environment running.
   ```bash
   git clone git@github.com:2000030390/Bus-Booking-Project.git
   ```
+ #### Search list of Buses from one city to another city
+```javascript
+POST http://localhost:8080/api/bus/search
+```
 
-    #### book the ticket
+  #### Book the ticket
 ```javascript
 POST  http://localhost:8080/api/bus/book/id
 ```
 
-  #### delete ticket from cart 
+  #### Delete ticket from cart 
 ```javascript
 DELETE http://localhost:8080/api/bus/cart/${id}
 ```
 
- #### to get all booked ticket
+ #### To get all booked ticket
 ```javascript
 POST http://localhost:8080/api/bus/book
 ```
 
-  #### cancel the booked ticket 
+  #### Cancel the booked ticket 
 ```javascript
 DELETE `http://localhost:8080/api/bus/book/${id}
 ```
