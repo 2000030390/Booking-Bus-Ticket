@@ -89,27 +89,27 @@ Follow the following steps to get development environment running.
   ```
  #### Search list of Buses from one city to another city
 ```javascript
-POST http://localhost:8080/api/bus/search
+POST http://localhost:3000/api/bus/search
 ```
 
   #### Book the ticket
 ```javascript
-POST  http://localhost:8080/api/bus/book/id
+POST  http://localhost:3000/api/bus/book/id
 ```
 
   #### Delete ticket from cart 
 ```javascript
-DELETE http://localhost:8080/api/bus/cart/${id}
+DELETE http://localhost:3000/api/bus/cart/${id}
 ```
 
  #### To get all booked ticket
 ```javascript
-POST http://localhost:8080/api/bus/book
+POST http://localhost:3000/api/bus/book
 ```
 
   #### Cancel the booked ticket 
 ```javascript
-DELETE `http://localhost:8080/api/bus/book/${id}
+DELETE `http://localhost:3000/api/bus/book/${id}
 ```
 
 * Install node modules
